@@ -1,0 +1,19 @@
+.page-sections {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+
+.left-section {
+    justify-content: center;
+    background-color: #FFE27B;
+    padding: 30px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #efeded;
+    padding: 30px;
+}
